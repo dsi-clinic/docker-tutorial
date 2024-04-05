@@ -1,4 +1,4 @@
-.PHONY: build run interactive notebook
+.PHONY: build run interactive notebook run_pipeline
 
 build:
 	docker build . -t docker_test_image
